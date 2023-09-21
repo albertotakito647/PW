@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Aquí va información importante pero no visible dentro del navegador -->
+    <title>Matcha</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <header >
+    <!-- Logo con link a la pagina principal-->
+    <a href="/">
+        <img src="https://www.upiicsa.ipn.mx/assets/files/main/img/template/logo_ipn_guinda.svg"/>
+        </a>
+        <!--Menú de navegacion-->
+        <nav> 
+            <ul>
+                <li>Platform</li>
+                <li>Pricing</li>
+                <li>Customers</li>
+                <li>Resources</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    <!--contenedor de acciones de usuario-->
+    <div> 
+        <a>Sign In</a>
+        <Button>Start free trial</Button>
+    </div>
+  </header>
+  <header class="header">
+<!--Contenido del header-->
+<a href="/" class="Logo"></a>
+<!--Menu de navegación-->
+<nav class="navbar"></nav>
+<!--Contenido de acciones de usuario-->
+<div class="actions"></div>
+  </header>
+  <body>
+
+    <!--img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="imagen capterra" /-->
+    <h1>Construye tu Blog. Construye tu negocio.</h1>
+    <p>Instantly publish articles, drive more traffic, grow your email list, and see your blog's
+      impact on sales</p>
+    
+      <p>
+        Start publishing today with a <strong>free 7-day trial.</strong>
+      </p>
+      <p>
+        <strong>No credit card</strong> required.
+      </p>
+      
+        <!-- Aquí va el código anterior-->
+        <form>
+          <input type="email" />
+          <button type="submit">
+            Try it now &rarr;
+          </button>
+        </form>
+    
+  
+  </body>
+</html>
