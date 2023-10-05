@@ -1,24 +1,42 @@
-body {
+body{
     background-color: #fffbf7;
 }
 
-h1 {
+h1{
     color: #46484c;
     text-align: center;
 }
 
-p {
+p{
     color: #8b8b8bcc;
     font-family: verdana;
     font-size: 20px;
 }
 
-button {
+button{
     color: #fff;
     background-color: #025157;
-   
 }
-.header {
+
+.logo{
+    width: 15%;
+}
+
+.navbar{
+    width: 70%;
+    text-align: 70%;
+    color: #025157;
+    font-weight: 500;
+}
+
+.actions{
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header{
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
@@ -33,20 +51,19 @@ button {
     line-height: 45px;
 }
 
-.logo {
-    width: 15%;
+
+.publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157
 }
 
-.navbar {
-    width: 70%;
-    text-align: center;
+.publish > form {
+    display: flex;
+}
+
+.publish > form p {
     color: #025157;
-    font-weight: 500;
-}
-
-.actions {
-    width: 15%;
-    text-align: right;
-    font-size: 14px;
-    font-weight: 600;
+    margin-right: 18px;
 }
